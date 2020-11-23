@@ -1,13 +1,16 @@
 {
-  "name": "chord-magic",
-  "version": "2.1.1",
+  "name": "@faithlife/chord-magic",
+  "version": "2.1.2",
   "description": "Musical chord parser, transposer, and disambiguator",
   "main": "dist/chord-magic.cjs.js",
   "module": "dist/chord-magic.es.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nolanlawson/chord-magic.git"
+    "url": "https://github.com/michael-gamlem-faithlife/chord-magic.git"
   },
+  "publishConfig": {
+	"registry": "http://npm.faithlife.io"
+},
   "keywords": [
     "chord",
     "parse",
